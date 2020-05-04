@@ -9,7 +9,7 @@
 
 module.exports = {
   title: 'Python Doc Site',
-  tagline: 'The tagline of my site',
+  tagline: 'A small example Python project documented with Docusaurus 2',
   url: 'https://https://brianjo.github.io/pydocsite/',
   baseUrl: '/pydocsite/',
   favicon: 'img/favicon.ico',
