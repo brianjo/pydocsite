@@ -24,7 +24,7 @@ jobs:
     - name: Check env
       run: echo `which spinx-build`
     - name: Build the docset
-      run: cd ./sphinx ; make html
+      run: cd ./sphinx ; make html ; cd ..
     - name: Build the Website
       run: cd website ; npm run build      
       
