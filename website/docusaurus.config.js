@@ -8,18 +8,18 @@
  */
 
 module.exports = {
-  title: 'My Site',
+  title: 'Python Doc Site',
   tagline: 'The tagline of my site',
   url: 'https://https://brianjo.github.io/pydocsite/',
   baseUrl: '/pydocsite/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'brianjo', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Facebook Project',
+      title: 'Python Doc Site',
       logo: {
-        alt: 'My Facebook Project Logo',
+        alt: 'Project Logo',
         src: 'img/logo.svg',
       },
       links: [
@@ -32,7 +32,7 @@ module.exports = {
         {to: 'blog', label: 'Blog', position: 'left'},
         // Please keep GitHub link to the right for consistency.
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/brianjo/pydocsite',
           label: 'GitHub',
           position: 'right',
         },
