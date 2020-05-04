@@ -26,7 +26,10 @@ jobs:
     - name: Build the docset
       run: cd ./sphinx ; make html ; cd ..
     - name: Build the Website
-      run: cd website ; npm run build      
+      run: |
+        cd website
+        npm install
+        npm run build      
       
       id: build
     - name: Get output time
