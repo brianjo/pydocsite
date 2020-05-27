@@ -16,10 +16,14 @@
     "@docusaurus/core": "^2.0.0-alpha.54",
     "@docusaurus/preset-classic": "^2.0.0-alpha.54",
     "classnames": "^2.2.6",
+    "docusaurus-plugin-internaldocs-fb": "^0.3.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
   "devDependencies": {
+    "docusaurus-plugin-internaldocs-fb": "^0.1.0",
+    "classnames": "^2.2.6",
+    "react-docgen": "^5.2.1",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.1",
     "eslint-config-airbnb": "^18.0.1",
