@@ -29,6 +29,12 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
+	{
+	  to: 'api/',
+	  activeBasePath: '/',
+	  label: 'API',
+	  position: 'left',
+	},
         {to: 'blog', label: 'Blog', position: 'left'},
         // Please keep GitHub link to the right for consistency.
         {
@@ -112,7 +118,6 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`,
     },
   },
-  plugins: ['docusaurus-plugin-internaldocs-fb'],
   presets: [
     [
       '@docusaurus/preset-classic',
