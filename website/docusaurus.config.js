@@ -22,7 +22,7 @@ module.exports = {
         alt: 'Project Logo',
         src: 'img/logo.svg',
       },
-      links: [
+      items: [
         {
           to: 'docs/doc1',
           activeBasePath: 'docs',
