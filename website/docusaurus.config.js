@@ -11,11 +11,12 @@ module.exports = {
   title: 'Python Doc Site',
   tagline: 'A small example Python project documented with Docusaurus 2',
   url: 'https://https://brianjo.github.io/pydocsite/',
-  baseUrl: '/pydocsite/',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'brianjo', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
-  themeConfig: {
+  onBrokenLinks: 'ignore',
+themeConfig: {
     navbar: {
       title: 'Python Doc Site',
       logo: {
@@ -30,8 +31,7 @@ module.exports = {
           position: 'left',
         },
 	{
-	  to: 'api/',
-	  activeBasePath: '/',
+	  to: 'api',
 	  label: 'API',
 	  position: 'left',
 	},
