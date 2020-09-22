@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{140:function(s){s.exports=JSON.parse('{"allTagsPath":"/pydocsite/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/pydocsite/blog/tags/docusaurus"}')}}]);
