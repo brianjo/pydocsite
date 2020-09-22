@@ -15,7 +15,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'brianjo', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
-  onBrokenLinks: 'ignore',
 themeConfig: {
     navbar: {
       title: 'Python Doc Site',
