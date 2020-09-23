@@ -22,7 +22,7 @@ module.exports = {
         alt: 'Project Logo',
         src: 'img/logo.svg',
       },
-      items: [
+      links: [
         {
           to: 'docs/doc1',
           activeBasePath: 'docs',
@@ -30,6 +30,11 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://github.com/brianjo/pydocsite/api',
+          label: 'API',
+          position: 'left',
+        },
         // Please keep GitHub link to the right for consistency.
         {
           href: 'https://github.com/brianjo/pydocsite',
