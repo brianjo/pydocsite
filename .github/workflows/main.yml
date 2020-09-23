@@ -16,11 +16,12 @@ jobs:
         sudo apt-get install -y python3-sphinx
         python3 -m pip install --upgrade pip
         python3 -m pip install setuptools
+        sudo apt-get install -y yarn
       id: build
     - name: Build the Website
       run: |
         cd website
-        npm install
+        yarn
         npm run build
     - name: Check env
       run: echo `which spinx-build`
