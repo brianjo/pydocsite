@@ -1,6 +1,6 @@
 ---
 id: doc3
-title: Writing Docs and Tutorials
+title: Guide to Writing Docs and Tutorials
 ---
 ## The Basics
 
@@ -12,7 +12,7 @@ Focus on answering a question or accomplishing a specific task. To ensure focuse
   * Focus on what will be built/implemented. By the end of every recipe, users will have built/implemented something. Set expectations by explicitly stating what the recipe will cover and what users will build/implement by the end
   * Use action verbs to ensure a user is building/implementing rather than passively reading code. 
  
- ## Voice
+## Voice
 
 Write with an instructive, guiding, and directive voice for a global audience. Use Active Voice!
 
