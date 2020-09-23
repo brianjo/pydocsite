@@ -30,7 +30,7 @@ themeConfig: {
           label: 'Docs',
           position: 'left',
         },
-	{to: 'api/', label: 'API', position: 'left'},
+	{href: 'https://brianjo.github.io/pydocsite/api/', label: 'API', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},
         // Please keep GitHub link to the right for consistency.
         {
