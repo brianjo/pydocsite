@@ -11,7 +11,7 @@ module.exports = {
   title: 'Python Doc Site',
   tagline: 'A small example Python project documented with Docusaurus 2',
   url: 'https://https://jlin27.github.io/pydocsite',
-  baseUrl: '/',
+  baseUrl: '/pydocsite/',
   favicon: 'img/favicon.ico',
   organizationName: 'brianjo', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
