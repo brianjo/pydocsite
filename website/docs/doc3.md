@@ -24,15 +24,15 @@ If the document is a tutorial, one suggestion outline is as follows to guide use
 * Introduction 
   * Anser for the reader - "Why is this topic important?"
 * Setup
- * Call out any required setup or data downloads
+  * Call out any required setup or data downloads
 * Steps
- * Use the steps you introduced in the Learning Objectives section
- * Break down the steps as well as add prose for context
- * If there is code, add comments in the code to help clarify for readers what each section is doing
- * Link back to relevant pytorch documentation
- * Think of it akin to creating a really practical blog post
+  * Use the steps you introduced in the Learning Objectives section
+  * Break down the steps as well as add prose for context
+  * If there is code, add comments in the code to help clarify for readers what each section is doing
+  * Link back to relevant pytorch documentation
+  * Think of it akin to creating a really practical blog post
 * Learn More
-  * Link to any additiona
+  * Link to any additional resources (e.g. related docs, API references, tutorials)
 
 
 
