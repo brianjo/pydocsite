@@ -23,7 +23,7 @@ themeConfig: {
         alt: 'Project Logo',
         src: 'img/logo.svg',
       },
-      items: [
+      links: [
         {
           to: 'docs/doc1',
           activeBasePath: 'docs',
