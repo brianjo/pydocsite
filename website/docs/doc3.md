@@ -1,14 +1,35 @@
 ---
 id: doc3
-title: This is Document Number 3
+title: Guide to Writing Docs and Tutorials
 ---
+## The Basics
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Documentation is one of your product's interfaces with your users. A well-written and well-organized set of docs helps your users understand your product quickly. Our aligned goal here is to help your users find and understand the information they need, as quickly as possible.([Source](https://v2.docusaurus.io/docs/markdown-features))
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+Focus on answering a question or accomplishing a specific task. To ensure focused and actionable documentation, make sure you understand your learning objectives when creating new content. To do this, start by nailing down the Learning Objectives - which are the end goals. Working backwards in this way will cut out anything extraneous.
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+* To create the Learning Objectives...
+  * Focus on what will be built/implemented. By the end of every recipe, users will have built/implemented something. Set expectations by explicitly stating what the recipe will cover and what users will build/implement by the end
+  * Use action verbs to ensure a user is building/implementing rather than passively reading code.
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+## Voice
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+Write with an instructive, guiding, and directive voice for a global audience. Use Active Voice!
+
+## Structure
+
+If the document is a tutorial, one suggestion outline is as follows to guide users through the learning experience and provides appropriate context:
+* Recipe Title
+  * 1-2 sentences summary. Tell the reader what they will gain from reading this. Let them know if this is the document they are looking for before they read further.
+* Introduction
+  * Anser for the reader - "Why is this topic important?"
+* Setup
+  * Call out any required setup or data downloads
+* Steps
+  * Use the steps you introduced in the Learning Objectives section
+  * Break down the steps as well as add prose for context
+  * If there is code, add comments in the code to help clarify for readers what each section is doing
+  * Link back to relevant pytorch documentation
+  * Think of it akin to creating a really practical blog post
+* Learn More
+  * Link to any additional resources (e.g. related docs, API references, tutorials)
