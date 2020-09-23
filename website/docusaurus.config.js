@@ -13,7 +13,6 @@ module.exports = {
   url: 'https://https://brianjo.github.io/pydocsite/',
   baseUrl: '/pydocsite/',
   favicon: 'img/favicon.ico',
-  onBrokenLinks: 'ignore',
   organizationName: 'brianjo', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 themeConfig: {
