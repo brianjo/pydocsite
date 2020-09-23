@@ -30,11 +30,6 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://jlin27.github.io/pydocsite/api',
-          label: 'API',
-          position: 'left',
-        },
         // Please keep GitHub link to the right for consistency.
         {
           href: 'https://github.com/brianjo/pydocsite',
