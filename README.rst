@@ -21,7 +21,9 @@ To test this project in your own repo, follow these steps:
 3. Enable the GitHub Actions workflow
 4. Customize your site in website
 5. Customize the API content in /sphinx and source
-6. Changes should trigger a rebuild.
+
+Changes should trigger a rebuild.
+
 Your site should be available at https://reponame.github.io/pydocsite. 
 
 The GitHub action uses James Ives `GitHub Deploy Action <https://github.com/JamesIves/github-pages-deploy-action>`_. 
