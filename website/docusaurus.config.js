@@ -10,8 +10,8 @@
 module.exports = {
   title: 'Python Doc Site',
   tagline: 'A small example Python project documented with Docusaurus 2',
-  url: 'https://https://brianjo.github.io/pydocsite/',
-  baseUrl: '/pydocsite/',
+  url: 'https://https://jlin27.github.io/pydocsite',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'brianjo', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
@@ -31,7 +31,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/brianjo/pydocsite/api',
+          href: 'https://jlin27/github.io/pydocsite/api',
           label: 'API',
           position: 'left',
         },
