@@ -24,7 +24,7 @@ To test this project in your own repo, follow these steps:
 
 Changes should trigger a rebuild.
 
-Your site should be available at https://reponame.github.io/pydocsite. 
+Your site should be available at https://<accountname>.github.io/pydocsite. 
 
 The GitHub action uses James Ives `GitHub Deploy Action <https://github.com/JamesIves/github-pages-deploy-action>`_. 
 
