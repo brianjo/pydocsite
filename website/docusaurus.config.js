@@ -31,7 +31,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://jlin27/github.io/pydocsite/api',
+          href: 'https://jlin27.github.io/pydocsite/api',
           label: 'API',
           position: 'left',
         },
