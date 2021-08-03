@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[842],{6306:function(e){e.exports=JSON.parse('{"allTagsPath":"/pydocsite/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/pydocsite/blog/tags/facebook"}')}}]);
