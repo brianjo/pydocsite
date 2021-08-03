@@ -20,9 +20,8 @@
     "react-dom": "^16.8.4"
   },
   "devDependencies": {
-    "classnames": "^2.2.6",
-    "react-docgen": "^5.2.1",
     "babel-eslint": "^10.0.3",
+    "classnames": "^2.2.6",
     "eslint": "^6.7.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.7.0",
@@ -32,6 +31,7 @@
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^3.0.0",
     "prettier": "^2.0.2",
+    "react-docgen": "^5.2.1",
     "stylelint": "^13.2.1"
   },
   "browserslist": {
