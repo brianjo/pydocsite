@@ -26,7 +26,11 @@ jobs:
     - name: Check env
       run: echo `which spinx-build`
     - name: Build the docset
-      run: cd ./sphinx ; make html ; cd ..
+      run: | 
+        cd ./sphinx
+        pip install -r requirements.txt
+        make html 
+        cd ..
 
     - name: Get output time
       run: echo "The time was ${{ steps.build.outputs.time }}"      
