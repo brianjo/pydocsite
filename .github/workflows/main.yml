@@ -18,6 +18,11 @@ jobs:
         python3 -m pip install setuptools
         sudo apt-get install -y yarn
       id: build
+    - name: Add tutorials to Docs
+      run: |
+        cd tutorials
+        sh convert.sh
+        cd ..
     - name: Build the Website
       run: |
         cd website
