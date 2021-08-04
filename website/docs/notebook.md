@@ -3,10 +3,7 @@ id: notebook
 title: Jupyter Notebook Example
 ---
 
-```python
-%matplotlib inline
-```
-
+<a href="https://colab.research.google.com/github/brianjo/pydocsite/blob/master/tutorials/notebook.ipynb">Open in Gooble Colab</a>
 
 What is PyTorch?
 ================
