@@ -1,2 +1,2 @@
-jupyter nbconvert *.ipynb --to markdown --output *.md
+jupyter nbconvert *.ipynb --to markdown --execute --output *.md
 cp *.md ../website/docs/
