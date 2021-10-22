@@ -25,7 +25,7 @@ themeConfig: {
       },
       items: [
         {
-          to: 'docs/doc1',
+          to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
