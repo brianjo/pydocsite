@@ -18,6 +18,7 @@ jobs:
         python3 -m pip install setuptools
         python3 -m pip install notebook
         python3 -m pip install torch
+        python3 -m pip install matplotlib
         sudo apt-get install -y yarn
       id: build
     - name: Add tutorials to Docs
