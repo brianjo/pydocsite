@@ -10,8 +10,8 @@
 module.exports = {
   title: 'Python Doc Site',
   tagline: 'A small example Python project documented with Docusaurus 2',
-  url: 'https://https://brianjo.github.io/pydocsite/',
-  baseUrl: '/pydocsite/',
+  url: 'https://brianjo.github.io/',
+  baseUrl: '/',
   onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'brianjo', // Usually your GitHub org/user name.
