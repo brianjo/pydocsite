@@ -6,7 +6,8 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>Configuration &mdash; sample v0.0.1 documentation</title>
@@ -27,6 +28,8 @@
 
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <!-- <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" /> -->
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
   <!-- Google Analytics -->
@@ -288,17 +291,17 @@
             <div role="main" class="main-content" itemscope="itemscope" itemtype="http://schema.org/Article">
              <article itemprop="articleBody" id="pytorch-article" class="pytorch-article">
               
-  <div class="section" id="configuration">
+  <section id="configuration">
 <h1>Configuration<a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h1>
 <p>You can configure different parts of the theme.</p>
-<div class="section" id="project-wide-configuration">
+<section id="project-wide-configuration">
 <h2>Project-wide Configuration<a class="headerlink" href="#project-wide-configuration" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="html-theme-options">
+<section id="html-theme-options">
 <h3>HTML Theme Options<a class="headerlink" href="#html-theme-options" title="Permalink to this headline">¶</a></h3>
 <p>The theme’s project-wide options are defined in the <code class="docutils literal notranslate"><span class="pre">pytorch_sphinx_theme/theme.conf</span></code>
 file of this repository, and can be defined in your project’s <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> via
 <code class="docutils literal notranslate"><span class="pre">html_theme_options</span></code>. For example:</p>
-<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">html_theme_options</span> <span class="o">=</span> <span class="p">{</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_theme_options</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s1">&#39;canonical_url&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span><span class="p">,</span>
     <span class="s1">&#39;analytics_id&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span><span class="p">,</span>
     <span class="s1">&#39;logo_only&#39;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
@@ -316,57 +319,57 @@ file of this repository, and can be defined in your project’s <code class="doc
 </pre></div>
 </div>
 <p>The following options are available:</p>
-<div class="section" id="base-options">
+<section id="base-options">
 <h4>Base options<a class="headerlink" href="#base-options" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><code class="docutils literal notranslate"><span class="pre">canonical_url</span></code> String. This will specify a <a class="reference external" href="https://en.wikipedia.org/wiki/Canonical_link_element">canonical url</a>
+<li><p><code class="docutils literal notranslate"><span class="pre">canonical_url</span></code> String. This will specify a <a class="reference external" href="https://en.wikipedia.org/wiki/Canonical_link_element">canonical url</a>
 to let search engines know they should give higher ranking to latest version of the docs.
-The url points to the root of the documentation and requires a trailing slash.</li>
-<li><code class="docutils literal notranslate"><span class="pre">analytics_id</span></code> String. Change the Google Analytics ID that is included on pages.</li>
-<li><code class="docutils literal notranslate"><span class="pre">display_version</span></code> Bool. With this disabled, the version number isn’t shown at the top of the sidebar.</li>
-<li><code class="docutils literal notranslate"><span class="pre">prev_next_buttons_location</span></code> String. can take the value <code class="docutils literal notranslate"><span class="pre">bottom</span></code>, <code class="docutils literal notranslate"><span class="pre">top</span></code>, <code class="docutils literal notranslate"><span class="pre">both</span></code> , or <code class="docutils literal notranslate"><span class="pre">None</span></code>
-and will display the “Next” and “Previous” buttons accordingly.</li>
-<li><code class="docutils literal notranslate"><span class="pre">style_external_links</span></code> Bool. Add an icon next to external links. Defaults to <code class="docutils literal notranslate"><span class="pre">False</span></code>.</li>
-<li><code class="docutils literal notranslate"><span class="pre">vcs_pageview_mode</span></code> String. Changes how to view files when using <cite>display_github</cite>, <cite>display_gitlab</cite>, etc.
+The url points to the root of the documentation and requires a trailing slash.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">analytics_id</span></code> String. Change the Google Analytics ID that is included on pages.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">display_version</span></code> Bool. With this disabled, the version number isn’t shown at the top of the sidebar.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">prev_next_buttons_location</span></code> String. can take the value <code class="docutils literal notranslate"><span class="pre">bottom</span></code>, <code class="docutils literal notranslate"><span class="pre">top</span></code>, <code class="docutils literal notranslate"><span class="pre">both</span></code> , or <code class="docutils literal notranslate"><span class="pre">None</span></code>
+and will display the “Next” and “Previous” buttons accordingly.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">style_external_links</span></code> Bool. Add an icon next to external links. Defaults to <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">vcs_pageview_mode</span></code> String. Changes how to view files when using <cite>display_github</cite>, <cite>display_gitlab</cite>, etc.
 When using Github or Gitlab this can be: <cite>blob</cite> (default), <cite>edit</cite>, or <cite>raw</cite>,
-on Bitbucket, this can be either: <cite>view</cite> (default) or <cite>edit</cite>.</li>
+on Bitbucket, this can be either: <cite>view</cite> (default) or <cite>edit</cite>.</p></li>
 </ul>
-</div>
-<div class="section" id="toc-options">
+</section>
+<section id="toc-options">
 <h4>TOC Options<a class="headerlink" href="#toc-options" title="Permalink to this headline">¶</a></h4>
 <p>These effect how we display the Table of Contents in the side bar. You can read more about them here: <a class="reference external" href="http://www.sphinx-doc.org/en/stable/templating.html#toctree">http://www.sphinx-doc.org/en/stable/templating.html#toctree</a></p>
 <ul class="simple">
-<li><code class="docutils literal notranslate"><span class="pre">collapse_navigation</span></code> Bool. With this enabled, you will lose the <code class="docutils literal notranslate"><span class="pre">[+]</span></code> drop downs next to each section in the sidebar.</li>
-<li><code class="docutils literal notranslate"><span class="pre">sticky_navigation</span></code> Bool. This causes the sidebar to scroll with the main page content as you scroll the page.</li>
-<li><code class="docutils literal notranslate"><span class="pre">navigation_depth</span></code> Int. Indicate the max depth of the tree; by default, 4 levels are included;
-set it to -1 to allow unlimited depth.</li>
-<li><code class="docutils literal notranslate"><span class="pre">includehidden</span></code> Bool. Specifies if the sidebar includes toctrees marked with the <code class="docutils literal notranslate"><span class="pre">:hidden:</span></code> option</li>
-<li><code class="docutils literal notranslate"><span class="pre">titles_only</span></code> Bool. If True, removes headers within a page from the sidebar.</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">collapse_navigation</span></code> Bool. With this enabled, you will lose the <code class="docutils literal notranslate"><span class="pre">[+]</span></code> drop downs next to each section in the sidebar.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sticky_navigation</span></code> Bool. This causes the sidebar to scroll with the main page content as you scroll the page.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">navigation_depth</span></code> Int. Indicate the max depth of the tree; by default, 4 levels are included;
+set it to -1 to allow unlimited depth.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">includehidden</span></code> Bool. Specifies if the sidebar includes toctrees marked with the <code class="docutils literal notranslate"><span class="pre">:hidden:</span></code> option</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">titles_only</span></code> Bool. If True, removes headers within a page from the sidebar.</p></li>
 </ul>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">Setting <code class="docutils literal notranslate"><span class="pre">collapse_navigation</span></code> to False and using a high <code class="docutils literal notranslate"><span class="pre">navigation_depth</span></code>
+<p class="admonition-title">Note</p>
+<p>Setting <code class="docutils literal notranslate"><span class="pre">collapse_navigation</span></code> to False and using a high <code class="docutils literal notranslate"><span class="pre">navigation_depth</span></code>
 can cause projects with many files and a deep file structure to generate HTML files
 that are significantly larger in file size and much longer compilation times.</p>
 </div>
-</div>
-</div>
-<div class="section" id="html-context-options">
+</section>
+</section>
+<section id="html-context-options">
 <h3>HTML Context Options<a class="headerlink" href="#html-context-options" title="Permalink to this headline">¶</a></h3>
 <p>TODO.</p>
-</div>
-</div>
-<div class="section" id="page-level-configuration">
+</section>
+</section>
+<section id="page-level-configuration">
 <h2>Page-level Configuration<a class="headerlink" href="#page-level-configuration" title="Permalink to this headline">¶</a></h2>
 <p>Pages support metadata that changes how the theme renders.
 You can currently add the following:</p>
 <ul class="simple">
-<li><code class="docutils literal notranslate"><span class="pre">:github_url:</span></code> This will force the “Edit on GitHub” to the configured URL</li>
-<li><code class="docutils literal notranslate"><span class="pre">:bitbucket_url:</span></code> This will force the “Edit on Bitbucket” to the configured URL</li>
-<li><code class="docutils literal notranslate"><span class="pre">:gitlab_url:</span></code> This will force the “Edit on GitLab” to the configured URL</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">:github_url:</span></code> This will force the “Edit on GitHub” to the configured URL</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">:bitbucket_url:</span></code> This will force the “Edit on Bitbucket” to the configured URL</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">:gitlab_url:</span></code> This will force the “Edit on GitLab” to the configured URL</p></li>
 </ul>
-</div>
-<div class="section" id="how-the-table-of-contents-builds">
+</section>
+<section id="how-the-table-of-contents-builds">
 <h2>How the Table of Contents builds<a class="headerlink" href="#how-the-table-of-contents-builds" title="Permalink to this headline">¶</a></h2>
 <p>Currently the left menu will build based upon any <code class="docutils literal notranslate"><span class="pre">toctree(s)</span></code> defined in your <code class="docutils literal notranslate"><span class="pre">index.rst</span></code> file.
 It outputs 2 levels of depth, which should give your visitors a high level of access to your
@@ -380,8 +383,8 @@ to build a toc without it rendering in your index.</p>
 <p>By default, the navigation will “stick” to the screen as you scroll. However if your toc
 is vertically too large, it will revert to static positioning. To disable the sticky nav
 altogether change the setting in <code class="docutils literal notranslate"><span class="pre">conf.py</span></code>.</p>
-</div>
-</div>
+</section>
+</section>
 
 
              </article>
@@ -446,11 +449,10 @@ altogether change the setting in <code class="docutils literal notranslate"><spa
 
      
        <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
-         <script type="text/javascript" src="../../../_static/jquery.js"></script>
-         <script type="text/javascript" src="../../../_static/underscore.js"></script>
-         <script type="text/javascript" src="../../../_static/doctools.js"></script>
-         <script type="text/javascript" src="../../../_static/language_data.js"></script>
-         <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+         <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+         <script src="../../../_static/jquery.js"></script>
+         <script src="../../../_static/underscore.js"></script>
+         <script src="../../../_static/doctools.js"></script>
      
 
   
