@@ -13,7 +13,6 @@ jobs:
       run: |
         echo `python3 --version`
         sudo apt-get install -y python-setuptools
-        sudo apt-get install -y python3-sphinx
         python3 -m pip install --upgrade pip
         python3 -m pip install setuptools
         python3 -m pip install notebook
