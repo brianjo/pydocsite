@@ -288,10 +288,9 @@ The Torch Tensor and NumPy array will share their underlying memory
 locations (if the Torch Tensor is on CPU), and changing one will change
 the other.
 
+
 Converting a Torch Tensor to a NumPy Array
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-
 
 
 ```python
