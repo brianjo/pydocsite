@@ -136,6 +136,9 @@ themeConfig: {
 	googleAnalytics: {
           trackingID: 'UA-2336996-4',
         },
+        gtag: {
+        trackingID: 'UA-2336996-4',
+        },
       },
     ],
   ],
