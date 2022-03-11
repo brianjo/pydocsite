@@ -133,6 +133,9 @@ themeConfig: {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+	googleAnalytics: {
+          trackingID: 'UA-2336996-4',
+        },
       },
     ],
   ],
