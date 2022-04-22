@@ -15,7 +15,7 @@ module.exports = {
   onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'brianjo', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'pydocsite', // Usually your repo name.
 themeConfig: {
     navbar: {
       title: 'Python Doc Site',
@@ -82,7 +82,7 @@ themeConfig: {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/brianjo/pydocsite',
             },
           ],
         },
@@ -122,7 +122,7 @@ themeConfig: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/brianjo/pydocsite/edit/main/website/',
         },
         blog: {
           showReadingTime: true,
