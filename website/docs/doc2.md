@@ -9,7 +9,7 @@ Let's test it!
 
 OK!
 
-![test](How-To-Quicktime-Screen-Record.m4v)
+![test](qt-recording.mov)
 
 
 <table>
