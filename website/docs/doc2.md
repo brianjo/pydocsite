@@ -9,6 +9,8 @@ Let's test it!
 
 OK!
 
+![test](How-To-Quicktime-Screen-Record.m4v)
+
 
 <table>
     <tr>
