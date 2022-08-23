@@ -200,6 +200,6 @@ This is a caution
 
 :::warning
 
-This is a warning
+This is a warning test. 
 
 :::
