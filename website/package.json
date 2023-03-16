@@ -15,7 +15,9 @@
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.54",
     "@docusaurus/preset-classic": "^2.0.0-alpha.64",
+    "@lexical/react": "^0.8.1",
     "classnames": "^2.2.6",
+    "lexical": "^0.8.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },

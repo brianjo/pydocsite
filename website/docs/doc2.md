@@ -7,9 +7,6 @@ This is a link to [another document.](doc3.md) This is a link to an [external pa
 
 Let's test it!
 
-OK!
-
-![test](qt-recording.mov)
 
 
 <table>
