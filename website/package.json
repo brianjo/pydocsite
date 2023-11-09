@@ -13,14 +13,14 @@
     "prettier:diff": "prettier --config .prettierrc --list-different \"**/*.{js,md}\""
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.54",
+    "@docusaurus/core": "^3.0.0",
     "@docusaurus/plugin-google-tag-manager": "^3.0.0",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.64",
+    "@docusaurus/preset-classic": "^3.0.0",
     "@lexical/react": "^0.8.1",
     "classnames": "^2.2.6",
     "lexical": "^0.8.1",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
