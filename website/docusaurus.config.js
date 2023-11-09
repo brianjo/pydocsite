@@ -134,12 +134,15 @@ themeConfig: {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-	googleAnalytics: {
+        googleTagManager: {
+          containerId: 'G-WSXKDLN183',
+        },
+/* 	googleAnalytics: {
           trackingID: 'UA-2336996-4',
         },
         gtag: {
         trackingID: 'UA-2336996-4',
-        },
+        }, */
       },
     ],
   ],
