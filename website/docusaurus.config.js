@@ -134,9 +134,6 @@ themeConfig: {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        googleTagManager: {
-          containerId: 'G-WSXKDLN183',
-        },
         gtag: {
           trackingID: 'G-WSXKDLN183',
           },
