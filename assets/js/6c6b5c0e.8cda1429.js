@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[470],{4230:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/pydocsite/blog/tags/docusaurus","allTagsPath":"/pydocsite/blog/tags","count":3,"unlisted":false}')}}]);
