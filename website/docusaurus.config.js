@@ -137,6 +137,9 @@ themeConfig: {
         googleTagManager: {
           containerId: 'G-WSXKDLN183',
         },
+        gtag: {
+          trackingID: 'G-WSXKDLN183',
+          },
 /* 	googleAnalytics: {
           trackingID: 'UA-2336996-4',
         },
